@@ -1,27 +1,26 @@
 {
   "name": "pagerduty-v2",
   "version": "1.0.0",
-  "description": "Node JS client for pagerduty v2 API",
+  "description": "Yet Another Pager Duty Library for node",
   "main": "index.js",
   "scripts": {
     "test": "ava --verbose"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/iancw/pagerduty-v2.git"
+    "url": "git+ssh://git@github.com/iancw/yapdl.git"
   },
   "keywords": [
     "node",
     "js",
-    "pagerduty",
-    "v2"
+    "pagerduty"
   ],
   "author": "iancw",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iancw/pagerduty-v2/issues"
+    "url": "https://github.com/iancw/yapdl/issues"
   },
-  "homepage": "https://github.com/iancw/pagerduty-v2#readme",
+  "homepage": "https://github.com/iancw/yapdl#readme",
   "devDependencies": {
     "ava": "^0.17.0",
     "nock": "^9.0.2"
