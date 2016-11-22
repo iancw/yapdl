@@ -1,0 +1,107 @@
+{
+    "incidents": [
+        {
+            "acknowledgements": [],
+            "alert_counts": {
+                "all": 0,
+                "resolved": 0,
+                "triggered": 0
+            },
+            "assignments": [
+                {
+                    "assignee": {
+                        "html_url": "https://webdemo.pagerduty.com/users/P52YQZX",
+                        "id": "P52YQZX",
+                        "self": "https://api.pagerduty.com/users/P52YQZX",
+                        "summary": "Dave",
+                        "type": "user_reference"
+                    },
+                    "at": "2016-11-22T16:49:14Z"
+                },
+                {
+                    "assignee": {
+                        "html_url": "https://webdemo.pagerduty.com/users/PVYIT4B",
+                        "id": "PVYIT4B",
+                        "self": "https://api.pagerduty.com/users/PVYIT4B",
+                        "summary": "Manisha Koirala",
+                        "type": "user_reference"
+                    },
+                    "at": "2016-11-22T16:49:14Z"
+                }
+            ],
+            "created_at": "2016-11-22T16:19:14Z",
+            "description": "Rats chewed through the fiber.",
+            "escalation_policy": {
+                "html_url": "https://webdemo.pagerduty.com/escalation_policies/PEEJXL1",
+                "id": "PEEJXL1",
+                "self": "https://api.pagerduty.com/escalation_policies/PEEJXL1",
+                "summary": "DevOps team",
+                "type": "escalation_policy_reference"
+            },
+            "first_trigger_log_entry": {
+                "html_url": "https://webdemo.pagerduty.com/incidents/PB4MB4C/log_entries/Q38WCT6L9HX3HO",
+                "id": "Q38WCT6L9HX3HO",
+                "self": "https://api.pagerduty.com/log_entries/Q38WCT6L9HX3HO",
+                "summary": "Triggered through the API",
+                "type": "trigger_log_entry_reference"
+            },
+            "html_url": "https://webdemo.pagerduty.com/incidents/PB4MB4C",
+            "id": "PB4MB4C",
+            "impacted_services": [
+                {
+                    "html_url": "https://webdemo.pagerduty.com/services/P3U7V58",
+                    "id": "P3U7V58",
+                    "self": "https://api.pagerduty.com/services/P3U7V58",
+                    "summary": "Website",
+                    "type": "service_reference"
+                }
+            ],
+            "importance": null,
+            "incident_key": "srv01/HTTP",
+            "incident_number": 57159,
+            "incidents_responders": [],
+            "is_mergeable": false,
+            "last_status_change_at": "2016-11-22T18:19:18Z",
+            "last_status_change_by": {
+                "html_url": "https://webdemo.pagerduty.com/services/P3U7V58",
+                "id": "P3U7V58",
+                "self": "https://api.pagerduty.com/services/P3U7V58",
+                "summary": "Website",
+                "type": "service_reference"
+            },
+            "pending_actions": [
+                {
+                    "at": "2016-11-22T20:19:14Z",
+                    "type": "resolve"
+                }
+            ],
+            "privilege": null,
+            "responder_requests": [],
+            "self": "https://api.pagerduty.com/incidents/PB4MB4C",
+            "service": {
+                "html_url": "https://webdemo.pagerduty.com/services/P3U7V58",
+                "id": "P3U7V58",
+                "self": "https://api.pagerduty.com/services/P3U7V58",
+                "summary": "Website",
+                "type": "service_reference"
+            },
+            "status": "triggered",
+            "summary": "[#57159] Rats chewed through the fiber.",
+            "teams": [
+                {
+                    "html_url": "https://webdemo.pagerduty.com/teams/PNOIFIV",
+                    "id": "PNOIFIV",
+                    "self": "https://api.pagerduty.com/teams/PNOIFIV",
+                    "summary": "Ops Team",
+                    "type": "team_reference"
+                }
+            ],
+            "type": "incident",
+            "urgency": "high"
+        }
+    ],
+    "limit": 25,
+    "more": false,
+    "offset": 0,
+    "total": null
+}
