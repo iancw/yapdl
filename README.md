@@ -11,7 +11,7 @@ for open incidents and filtering by description.
 
 Here is an example (from the unit tests) that queries the PagerDuty v2 API for open incidents filtering by a couple service names. It uses the public sample token provided by in the [PagerDuty API Reference](https://v2.developer.pagerduty.com/v2/page/api-reference).
 
-```
+```js
 const yapdl = require('yapdl');
 
 const response = yield yapdl.getIncidents({
